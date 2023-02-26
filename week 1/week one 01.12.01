@@ -1,0 +1,190 @@
+In the name of GOD
+Matin Ahmadi Rozbahani
+11/30/1401
+student code: 40113841054052
+Exercises for season 3
+Answer 1
+Yes, all expressions have value and word 4 is one of them.
+ The value of a variable named x stored in the memory location is limited to x.
+Answer 2
+ yes it is variable a validpython expression for examples of valid python identifievs incude:
+X.X2.total.port_22
+
+Answer 3
+ No, because the subtotal is not considered a valid expression in Python
+Answer4
+What affect does the unary + operator have when applied to a numeric expression?
+* .وقتی این عملگر بین عبارات عددی قرار میگیرد آنها را با یکدیگر جمع میکند
+* When this operator is placed between expressions, it adds them together.
+Answer5
+Sort the following binary operators in order of high to low precedence: +, -, *, //, /, %, =.
+1.*,//,/,% 2.+,- 3.=
+Answer 6
+Given the following assignment:
+ x = 2
+Indicate what each of the following Python statements would print.
+(a) print("x") = x
+(b) print('x') = x
+(c) print(x) = 2
+(d) print("x + 1") = x + 1
+(e) print('x' + 1) = error
+* Can only concatenate str (not “ int “) to str . *
+(f) print(x + 1) = 3
+Answer 7
+Given the following assignments:
+i1 = 2
+i2 = 5
+i3 = -3
+d1 = 2.0
+d2 = 5.0
+d3 = -0.5
+Evaluate each of the following Python expressions
+(a) i1 + i2 = 7
+(b) i1 / i2 = 0.4
+(c) i1 // i2 = 0
+(d) i2 / i1 = 2.5
+(e) i2 // i1 = 2
+(f) i1 * i3 = - 6
+(g) d1 + d2 = 7.0
+(h) d1 / d2 = 0.4
+(i) d2 / d1 = 2.5
+(j) d3 * d1 = - 1.0
+(k) d1 + i2 = 7.0
+(l) i1 / d2 = 0.4
+(m) d2 / i1 = 2.5
+(n) i2 / d1 = 2.5
+(o) i1/i2*d1 = 0.8
+(p) d1*i1/i2 = 0.8
+(q) d1/d2*i1 = 0.8
+(r) i1*d1/d2 = 0.8
+(s) i2/i1*d1 = 5.0
+(t) d1*i2/i1 = 5.0
+(u) d2/d1*i1 = 5.0
+(v) i1*d2/d1 = 5.0
+Answer 8
+What is printed by the following statement:
+*این دستور به علت کامنت شدن چیزی چاپ نمیکند = (3/5(print#
+* This command does not print anything because it is commented
+Answer 9
+A: -13
+B:4
+C:1
+D:1
+E:-2.6
+F:-1
+G:8.6
+H:8
+I:4
+J:4
+K:-0.5
+L:-0.5
+M:2.75
+N:2.75
+O:7.16
+P:13
+Q:7.16
+R:52.5
+Answer 10
+The sign (#) is the beginning of a comment
+Answer 11
+the comment ends after going to the top of the line, and for each line we leave a comment, we must put
+# first, and the usual way is to put #, and for more than one comment line, you can use STR, but it
+cannot be used in variable format.
+Answer 12
+None, neither too long nor too short; in fact, it should be concise, useful and understandable
+Answer 13
+For special situations that we feel need to be explained, we use comments to make notes for ourselves
+because this part is not implemented in the code.
+Answer 14
+because the system does not understand and does not know anything except zero and one, and it is the
+human or the user who must understand the content.
+Answer 15
+of the first error, there are various reasons, such as using the name of a variable or function that is not
+defined, or spelling mistakes in the name of the variable or function, or using the Python module
+without entering the module, etc
+The second error is that the user gives an invalid value to the function, but it has a valid argument and
+does not match the function. The third error is that any number divided by zero is not defined and has
+no answer. An arithmetic operation or values whose size is greater than the defined size of each
+variable, a series of values occurs. The sixth error: When we give a code to the interpreter, it parses it
+and executes it. If the interpreter cannot parse, this error occurs and the invariant syntax is used. You
+have made the seventh error, when we write a program in Python and divide the string by an integer,
+such as one, this error may be given
+16. Consider the following program which contains some errors. You may assume that the comments
+within the program accurately describe the program’s intended behavior.
+# Get two numbers from the user
+n1 = float(input()) # 1
+n2 = float(input()) # 2
+# Compute sum of the two numbers
+print(n1 + n2) # 3
+# Compute average of the two numbers
+print(n1+n2/2) # 4 => print ((n1+n2)/2)
+# Assign some variables
+d1 = d2 = 0 # 5
+# Compute a quotient
+print(n1/d1) # 6=> d1=0 –then zerodivisionError
+# Compute a product
+n1*n2 = d1 # 7=> we don’t know n1 and n2 so we are not sure result if
+the result is 0 or not … n1 or n2 must be 0 to get 0 in the result .
+.در نتیجه بدست بیاید 0باشد تا 0باید n2یا n1...است یا نه 0را نمی دانیم بنابراین مطمئن نیستیم که نتیجه n2و n1ما
+# Print result
+print(d1) # 8
+For each line listed in the comments, indicate whether or not an interpreter error, run-time exception,
+or logic error is present. Not all lines contain an error.
+.که دلیل آنها در قسمت باال به طور کامل توضیح داده شده است ...در هر سه مورد اینگونه است <=خطا منطقی است نه مفسری *
+* The error is logical, not interpretive => it is like this in all three cases... the reason for which is fully
+explained in the above section.
+17. Write the shortest way to express each of the following statements.
+(a) x = x + 1 => x += 1
+(b) x = x / 2 => x /= 2
+(c) x = x – 1 => x -= 1
+(d) x = x + y => x += y
+(e) x = x - (y + 7) => x -= y + z
+(f) x = 2*x => x *= 2
+(g) number_of_closed_cases = number_of_closed_cases + 2*ncc =>number_of_closed_cases += 2*ncc
+18. What is printed by the following code fragment?
+x1 = 2
+x2 = 2
+x1 += 1
+x2 -= 1
+print(x1)
+print(x2)
+result => for : print(x1) -> 3 & for : print(x2) -> 1
+Why does the output appear as it does?
+چرا که قبل از اجرای دستور پرینت عملیات های محاسباتی روی آنها انجام میشود و جایگزین داده ها ی اولیه میشود و هنگام *
+ .فراخوانی داده ها خروجی از داده های جدید استفاده میکند
+* Because before executing the print command, calculation operations are performed on them and the
+new data replaces the initial data, and it uses the new data when it is called and in the output.
+19. Consider the following program that attempts to compute the circumference of a circle given the
+radius entered by the user. Given a circle’s radius, r, the circle’s circumference, C is given by the formula:
+ C = 2πr
+r = 0
+PI = 3.14159
+# Formula for the area of a circle given its radius
+r = float(input("Please enter the circle's radius: "))
+C = 2*PI*r
+# Get the radius from the user
+#r = float(input("Please enter the circle's radius: "))
+# Print the circumference
+print("Circumference is", C)
+(a) The program does not produce the intended result. Why?
+اجرا میشود و پس از انجام عملیات از ما شعاع جدید را میخواهد که دیگر روی محاسبات تاثیری 0چون ابتدا دستور با شعاع *
+.ندارد و هرعددی ضربدر صفر برابر صفر است
+* Because first the command is executed with a radius of 0, and after performing the operation, it asks
+us for the new radius, which no longer affects the calculations, and any number multiplied by zero is
+equal to zero.
+(b) How can it be repaired so that it works correctly?
+.قرمز رنگ شده است و پاسخ درست با رنگ سبز در قسمت باال نوشته شده است (ایراد کد)خطا *
+* The error (code error) is colored red and the correct answer is written in green at the top.
+When this operator is placed between expressions, it adds them together.
+Answer 20
+import os
+shutdown = input("Do you want to shutdown your computer (yes / no): ")
+if shutdown == 'yes':
+ os.system("shutdown /s /t 1")
+else:
+ print('Shutdown is not requested')
+Answer 21
+import calendar
+year =int( input("Enter the year of the required calendar "))
+month = int( input("Enter the month of the required calendar "))
+print(calendar.month(year,
