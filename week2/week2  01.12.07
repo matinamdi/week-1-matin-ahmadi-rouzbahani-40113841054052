@@ -1,0 +1,297 @@
+In the name of GOD
+Hi
+Week 2/ 01.12.07 / Season 4 exercises
+Matin Ahmadi Rouzbahani
+Student 40113841054052
+
+
+Answer 1:
+a Boolean expression, sometimes called a predicate,
+may have only one of two possible values: false or true.
+،یک عبارت بولی که گاهی اوقات گزاره نامیده می شود *
+trueیا false: ممکن است فقط یکی از دو مقدار ممکن را داشته باشد
+
+
+
+Answer 2 :
+The term Boolean comes from the name of the
+British mathematician George Boole. A branch of discrete mathematics called Boolean algebra is
+dedicated
+to the study of the properties and the manipulation of logical expressions.
+ theاز نام Booleanاصطالح *
+شاخه ای از ریاضیات گسسته به نام جبر بولی اختصاص داده شده است .ریاضیدان بریتانیایی ،جورج بول
+به مطالعه خواص و دستکاری عبارات منطقی
+
+
+
+Answer 3 :
+integer equivalent to True in Python is one.
+A closer look at the condition reveals it can never be true. What number can be both less than zero and
+greater than ten at the same time? None can, of course, so the expression is a contradiction and a
+complicated way of expressing False. To correct this code fragment, replace the and operator with or.
+The expression x == 1 is either true or false, but integer 2 is always interpreted as true, and integer 3
+is interpreted as true is as well.
+
+
+
+Answer 4:
+integer equivalent to False in Python is zero.
+integers are always interpreted as true.
+
+
+
+
+Answer 5:
+It is true that its value is equal to 1 in Python.
+
+
+
+Answer 6:
+(a) True
+(b) False
+(c) False
+(d) False
+(e) False
+(f) True
+(g) False
+(h) False
+(i) False
+(j) True
+(k) True
+(l) False
+
+
+
+Answer 7:
+Given the following definitions: x, y = 3, 5 b1, b2, b3, b4 = True, False, x == 3 (True) , y < 3 (True) evaluate
+the following Boolean expressions:
+(a) b3 ---> True
+(b) b4 ---> True
+(c) not b1 ---> False
+(d) not b2 ---> True
+(e) not b3 ---> False
+(f) not b4 ---> False
+(g) b1 and b2 ---> False
+(h) b1 or b2 ---> True
+(i) b1 and b3 ---> True
+(j) b1 or b3 ---> True
+(k) b1 and b4 ---> True
+(l) b1 or b4 ---> True
+(m) b2 and b3 ---> False
+(n) b2 or b3 ---> True
+(o) b1 and b2 or b3 ---> True
+(p) b1 or b2 and b3 ---> True
+(q) b1 and b2 and b3 ---> False
+(r) b1 or b2 or b3 ---> True
+(s) not b1 and b2 and b3 ---> False
+(t) not b1 or b2 or b3 ---> True
+(u) not (b1 and b2 and b3) ---> True
+(v) not (b1 or b2 or b3) ---> False
+(w) not b1 and not b2 and not b3 ---> False
+(x) not b1 or not b2 or not b3 ---> True
+(y) not (not b1 and not b2 and not b3) ---> True (z) not (not b1 or not b2 or not b3) ---> False
+
+
+
+
+Answer 8:
+(a) not (x == 2) ---> x != 2
+(b) x < 2 or x == 2 ---> x <= 2
+(c) not (x < y) ---> x >= y
+(d) not (x <= y) ---> x > y
+(e) x < 10 and x > 20 ---> x > 20
+(f) x > 10 or x < 20 ---> 10 < x < 20
+(g) x != 0 ---> not (x == 0 )
+(h) x == 0 ---> not (x != 0 )
+
+
+
+
+Answer 9:
+(a) not (x == y) ---> !(x == y) => x != y / x ≠ y
+(b) not (x > y) ---> !(x > y) => x =< y / x ≤ y
+(c) not (x < y) ---> !(x < y) => x => y / x ≥ y
+(d) not (x >= y) ---> !(x => y) => x < y / x < y
+(e) not (x <= y) ---> !(x <= y) => x > y / x < y
+(f) not (x != y) ---> x == y
+(g) not (x != y) ---> x == y
+(h) not (x == y and x < 2) ---> x != y or !(x < 2) => (x != y) or (x => 2) / x != y or x ≥ 2
+(i) not (x == y or x < 2) ---> x != y and !(x < 2) => / x != y and x ≥ 2
+(j) not (not (x == y)) ---> x == y
+
+
+
+Answer 10 & 11:
+A Boolean expression that is always true
+is known as a tautology.
+a = a
+is the simplest tautology while
+a = not a
+is the simplest contradiction
+in a rather general sense.
+If it's about reasoning it would be quite similar:
+a → a
+would be tautological while
+a → not a
+would be a contradiction.
+If it's more about the outcome, a tautology simply means, it's always true. So "True" (TRUE, true, 1 or
+whatever, depending on language or field) would be the simplest tautology value wise, while "False"
+would be the simplest contradiction by the opposite line of reasoning.
+یک عبارت بولی که همیشه درست است *
+.به عنوان یک توتولوژی شناخته می شود
+a = a
+ساده ترین توتولوژی در حالی است که
+a = نهa
+ساده ترین تناقض است
+کلیًبه معنای نسبتا
+:مشابه استًکامال ،اگر در مورد استدالل باشد
+a → a
+در حالی که توتولوژیک خواهد بود
+a → نهa
+تناقض خواهد بود
+،درست) «درست»بنابراین .یک توتولوژی به سادگی به این معنی است که همیشه درست است ،اگر بیشتر در مورد نتیجه باشد
+ترین ساده «نادرست»در حالی که ،ترین ارزش توتولوژی خواهد بودساده (بسته به زبان یا رشته ،یا هر چیز دیگری 1، درست
+.تناقض در خط استدالل مخالف است
+
+Continued 11:
+A statement that is always false is known as a contradiction.
+Example: Show that the statement p ∧∼p is a contradiction.
+.جمله ای که همیشه نادرست است به عنوان تناقض شناخته می شود*
+.یک تناقض است p ∧∼pنشان دهید که عبارت :مثال
+
+
+
+
+Answer 12:
+val = int(input("Enter an integer value: "))
+if 1 <= val <= 100:
+print("OK")
+Answer 13:
+value = int(input("Enter an integer value:"))
+if value >= 1 and value <= 100:
+print("OK")
+else:
+print("Out of range.")
+
+
+
+
+Answer 14:
+< THE CODE >
+print("\t\t\t<< Do you like to learn days in Spanish? >> ")
+print("\n\n* [ Type end for stop ] * \n\n")
+while (True):
+day = input("\nEnter a day [completely :)] --> ") day = day.lower()
+# Saturady if day == "saturday" or 'sat' or 'satur' : print("\n\t\t\t<< In Spanish it is ' Sábado ' >>\n") #
+Sunday
+elif day == 'sunday' or 'sun' or 'sund' : print("\n\t\t\t<< In Spanish it is ' Domingo ' \n")
+# Monday
+elif day == 'monday' or 'mon' or 'mond': print("\n\t\t\t<< In Spanish it is ' Lunes ' \n")
+# Tuesday
+elif day == "tuesday" or 'tues' or 'tu': print("\n\t\t\t<< In Spanish it is ' Martes ' \n")
+# Wednesday
+elif
+day == 'wednesday' or 'wedn' or 'wednes' : print("\n\t\t\t<< In Spanish it is ' Miércoles ' \n") # Thursday
+elif day == "thursday" or 'thurs' or 'thur' : print("\n\t\t\t<< In Spanish it is ' Jueves ' \n")
+# Friday elif day == 'friday' or 'fri' or 'f' : print("\n\t\t\t<< In Spanish it is ' Viernes ' \n")
+# End cheking elif day == 'end' or 'e' or 'en' : print("Have a nice time :) ") break else : print("\n\t\t\t
+Incorrect input i don't undrestand :) \n")
+
+
+
+Answer 15:
+< THE CODE >
+# i, j, and k are numbers
+if i < j:
+if j < k:
+ i = j
+ else:
+ j = k
+else:
+if j > k:
+ j = i
+ else:
+ i = k
+print("i =", i, " j =", j, " k =", k)
+
+
+
+
+Answer 16:
+< THE CODE >
+val = int(input())
+ if val < 10:
+if val != 5:
+ print("wow ", end='')
+else:
+ val += 1
+else:
+if val == 17:
+ val += 10
+ else:
+ print("whoa ", end='')
+print(val)
+==========================
+What will the program print if the user provides the following input?
+(a) 3 ---> wow 3
+ (b) 21 ---> whoa 21
+ (c) 5 ---> 6
+ (d) 17 ---> 27
+ (e) -5 ---> wow -5
+
+
+
+Answer 17:
+* In the first part, all items are written with if, if the condition is true, it will print, but in the second part,
+we have elif, in such a situation, if if is not correct, we try elif, and it finds the correct item among elif
+and acts on it.
+
+
+
+Answer 18:
+n1 = int(input("num 1 --> "))
+ max = n1
+ min = n1
+ n2 = int(input("num 2 --> "))
+ n3 = int(input("num 3 --> "))
+ n4 = int(input("num 4 --> "))
+ n5 = int(input("num 5 --> "))
+
+ # Check minimum num
+ if n2 < min :
+ min = n2
+ if n3 < min :
+ min = n3
+ if n4 < min :
+ min = n4
+ if n5 < min :
+ min = n5
+ print("Min = ",min)
+ # Maximum check
+ if n2 > max :
+ max = n2
+ if n3 > max :
+ max = n3
+ if n4 > max :
+ max = n4
+ if n5 > max :
+ max = n5
+ print("Max = ",max)
+
+
+
+
+Answer 19:
+user inputs
+num1 = int(input("Please enter a number: "))
+num2 = int(input("Please enter a number: "))
+num3 = int(input("Please enter a number: "))
+num4 = int(input("Please enter a number: "))
+num5 = int(input("Please enter a number: "))
+# check if any of the values are the same
+if num1 == num2 or num1 == num3 or num1 == num4 or num1 == num5 or num2 == num3 or num2 ==
+num4 or num2 == num5 or num3 == num4 or num3 == num5 or num4 == num5:
+ print("DUPLICATES")
+else:
+ print("ALL UNIQUE")
+Finish⚘️
